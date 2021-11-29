@@ -58,12 +58,31 @@ console.log(typeof language);
 // }
 
 // LECTURE: Logical Operators
-const speaksEnglish = true;
-const lessThan50Million = true;
-const isIsland = false;
+// const speaksEnglish = true;
+// const lessThan50Million = true;
+// const isIsland = false;
 
-if (speaksEnglish && lessThan50Million && !isIsland) {
-    console.log("You should live in The Netherlands")
-}   else {
-    console.log("The Netherlands does not meet your criteria :(")
+// if (speaksEnglish && lessThan50Million && !isIsland) {
+//     console.log("You should live in The Netherlands")
+// }   else {
+//     console.log("The Netherlands does not meet your criteria :(")
+// }
+
+// LECTURE: THE SWITCH STATEMENT, OPDRACHT IN VIDEO
+
+const day='sunday';
+
+if (day === 'monday') {
+    console.log('Plan course structure');
+    console.log('Go to coding meetup');
+} else if (day === 'tuesday') {
+    console.log('Prepare theory videos');
+} else if (day === 'wednesday' || day === 'thursday') {
+    console.log('Write code examples');
+} else if (day === 'friday') {
+    console.log('Record videos');
+} else if (day === 'saturday' || day === 'sunday') {
+    console.log('Enjoy the weekend :D');
+} else {
+    console.log('Not a valid day!')
 }
