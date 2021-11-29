@@ -71,3 +71,11 @@ if ((scoreDolphins > scoreKoalas) && (scoreDolphins >= 100)) {
 }   else {
     console.log("The score is under 100, so there is no winner...")
 }
+
+// CODING CHALLENGE 4
+
+const bill = 430;
+const tip = bill >= 50 &&  bill <= 300 ? 0.15 * bill : 0.20 * bill;
+// console.log(tip)
+
+console.log(`The bill was ${bill}, the tip was ${tip}, and the total value ${bill + tip}`)
