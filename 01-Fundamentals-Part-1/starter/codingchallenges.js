@@ -26,18 +26,14 @@
 
 // CODING CHALLENGE 3
 
-// const scoreDolphins1 = 96;
-// const scoreDolphins2 = 108;
-// const scoreDolphins3 = 89;
-// const scoreKoalas1 = 88;
-// const scoreKoalas2 = 91;
-// const scoreKoalas3 = 110;
+// const scoreDolphins = (96 + 108 + 89) / 3;
+// const scoreKoalas = (88 + 91 + 110) / 3;
 
-// console.log((scoreDolphins1 + scoreDolphins2 + scoreDolphins3)/3, (scoreKoalas1 + scoreKoalas2 + scoreKoalas3)/3);
+// console.log((scoreDolphins1, scoreKoalas);
 
-// if ((scoreDolphins1 + scoreDolphins2 + scoreDolphins3)/3 > (scoreKoalas1 + scoreKoalas2 + scoreKoalas3)/3) {
+// if (scoreDolphins > scoreKoalas1) {
 //     console.log("The Dolphins have won!")
-// }   else if ((scoreKoalas1 + scoreKoalas2 + scoreKoalas3)/3 > (scoreDolphins1 + scoreDolphins2 + scoreDolphins3)/3) {
+// }   else if ((scoreKoalas > scoreDolphins) {
 //     console.log("The Koalas have won!")
 // }   else {
 //     console.log("There is a draw, so no one have won...")
@@ -45,18 +41,15 @@
 
 // CODING CHALLENGE BONUS 1
 
-// const scoreDolphins1 = 97;
-// const scoreDolphins2 = 112;
-// const scoreDolphins3 = 101;
-// const scoreKoalas1 = 109;
-// const scoreKoalas2 = 95;
-// const scoreKoalas3 = 123;
+// const scoreDolphins = (97 + 112 + 101) / 3;
+// const scoreKoalas = (109 + 95 + 123) / 3;
 
-// console.log((scoreDolphins1 + scoreDolphins2 + scoreDolphins3)/3, (scoreKoalas1 + scoreKoalas2 + scoreKoalas3)/3);
 
-// if (((scoreDolphins1 + scoreDolphins2 + scoreDolphins3)/3 > (scoreKoalas1 + scoreKoalas2 + scoreKoalas3)/3) && ((scoreDolphins1 + scoreDolphins2 + scoreDolphins3)/3) >= 100) {
+// console.log(scoreDolphins, scoreKoalas);
+
+// if ((scoreDolphins > scoreKoalas) && (scoreDolphins >= 100)) {
 //     console.log("The Dolphins have won!")
-// }   else if (((scoreKoalas1 + scoreKoalas2 + scoreKoalas3)/3 > (scoreDolphins1 + scoreDolphins2 + scoreDolphins3)/3) && (scoreKoalas1 + scoreKoalas2 + scoreKoalas3)/3 >= 100) {
+// }   else if ((scoreKoalas > scoreDolphins) && (scoreKoalas >= 100)) {
 //     console.log("The Koalas have won!")
 // }   else {
 //     console.log("There is a draw, so no one have won...")
@@ -64,20 +57,16 @@
 
 // CODING CHALLENGE BONUS 2
 
-const scoreDolphins1 = 97;
-const scoreDolphins2 = 112;
-const scoreDolphins3 = 101;
-const scoreKoalas1 = 109;
-const scoreKoalas2 = 95;
-const scoreKoalas3 = 106;
+const scoreDolphins = (97 + 112 + 101) / 3;
+const scoreKoalas = (109 + 95 + 106) / 3;
 
-console.log((scoreDolphins1 + scoreDolphins2 + scoreDolphins3)/3, (scoreKoalas1 + scoreKoalas2 + scoreKoalas3)/3);
+console.log(scoreDolphins, scoreKoalas);
 
-if (((scoreDolphins1 + scoreDolphins2 + scoreDolphins3)/3 > (scoreKoalas1 + scoreKoalas2 + scoreKoalas3)/3) && ((scoreDolphins1 + scoreDolphins2 + scoreDolphins3)/3) >= 100) {
+if ((scoreDolphins > scoreKoalas) && (scoreDolphins >= 100)) {
     console.log("The Dolphins have won!")
-}   else if (((scoreKoalas1 + scoreKoalas2 + scoreKoalas3)/3 > (scoreDolphins1 + scoreDolphins2 + scoreDolphins3)/3) && (scoreKoalas1 + scoreKoalas2 + scoreKoalas3)/3 >= 100) {
+}   else if ((scoreKoalas > scoreDolphins) && (scoreKoalas >= 100)) {
     console.log("The Koalas have won!")
-}   else  if (((scoreDolphins1 + scoreDolphins2 + scoreDolphins3)/3 >= 100) && ((scoreKoalas1 + scoreKoalas2 + scoreKoalas3)/3) >= 100) {
+}   else  if ((scoreDolphins >= 100) && (scoreKoalas >= 100)) {
     console.log("There is a draw, so no one have won...")
 }   else {
     console.log("The score is under 100, so there is no winner...")
