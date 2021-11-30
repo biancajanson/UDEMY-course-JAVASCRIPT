@@ -25,7 +25,7 @@ function percentageOfWorld1(population) {
 const china1 = percentageOfWorld1(1441);
 const netherlands1 = percentageOfWorld1(16);
 const germany1 = percentageOfWorld1(83);
-console.log(china1, netherlands1, germany1)
+console.log(china1, netherlands1, germany1);
 
 //EXPRESSION
 const percentageOfWorld2 = function (population) {
@@ -34,4 +34,12 @@ const percentageOfWorld2 = function (population) {
 const china2 = percentageOfWorld1(1441);
 const netherlands2 = percentageOfWorld1(16);
 const germany2 = percentageOfWorld1(83);
-console.log(china2, netherlands2, germany2)
+console.log(china2, netherlands2, germany2);
+
+// LECTURE: ARROW FUNCTIONS
+
+const percentageOfWorld3 = population => (population/7900)*100;
+const china3 = percentageOfWorld1(1441);
+const netherlands3 = percentageOfWorld1(16);
+const germany3 = percentageOfWorld1(83);
+console.log(china3, netherlands3, germany3);
