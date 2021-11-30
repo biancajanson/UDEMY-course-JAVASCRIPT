@@ -47,12 +47,12 @@ console.log(china3, netherlands3, germany3);
 */
 // LECTURE: FUNCTIONS CALLING OTHER FUNCTIONS
 
-const describePopulation = function (country, population) {
-    const percentage = percentageOfWorld1(population);
-    const description = `${country} has ${population} million people, which is about ${percentage}% of the world.`
-    console.log(description);
-}
+// const describePopulation = function (country, population) {
+//     const percentage = percentageOfWorld1(population);
+//     const description = `${country} has ${population} million people, which is about ${percentage}% of the world.`
+//     console.log(description);
+// }
 
-describePopulation('China',1441);
-describePopulation('Netherlands', 17);
-describePopulation('Germany', 83)
+// describePopulation('China',1441);
+// describePopulation('Netherlands', 17);
+// describePopulation('Germany', 83)
