@@ -68,17 +68,32 @@ console.log(china3, netherlands3, germany3);
 // console.log(friends.length - 1);
 
 // OPDRACHT
-function percentageOfWorld1(populations) {
-    return (populations/7900)*100;
-}
-const populations = [1441, 17, 83, 10] // China, Nederland, Duitsland, Portugal
-console.log(populations.length === 4);
-const percentages = [
-    percentageOfWorld1(populations[0]), 
-    percentageOfWorld1(populations[1]), 
-    percentageOfWorld1(populations[2]), 
-    percentageOfWorld1(populations[3])
-];
-console.log(percentages);
+// function percentageOfWorld1(populations) {
+//     return (populations/7900)*100;
+// }
+// const populations = [1441, 17, 83, 10] // China, Nederland, Duitsland, Portugal
+// console.log(populations.length === 4);
+// const percentages = [
+//     percentageOfWorld1(populations[0]), 
+//     percentageOfWorld1(populations[1]), 
+//     percentageOfWorld1(populations[2]), 
+//     percentageOfWorld1(populations[3])
+// ];
+// console.log(percentages);
 
 // BASIC ARRAY OPERATIONS
+const neighbours = ['Germany', 'Belgium'];
+console.log(neighbours);
+neighbours.push('Utopia');
+console.log(neighbours);
+neighbours.pop();
+console.log(neighbours);
+
+if (neighbours.includes(!'Germany')) {
+    console.log('Probably not a central European country.');
+}
+
+console.log(neighbours.indexOf('Belgium'));
+neighbours[1] = 'Belgie';
+console.log(neighbours);
+
