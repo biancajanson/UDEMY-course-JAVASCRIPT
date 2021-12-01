@@ -60,11 +60,14 @@ console.log(china3, netherlands3, germany3);
 // LECTURE: INTRODUCTION TO ARRAYS
 
 // OEFENING IN VIDEO
-const friends = ['Michael', 'Steven', 'Peter'];
-console.log(friends)
+// const friends = ['Michael', 'Steven', 'Peter'];
+// console.log(friends)
 
-console.log(friends[0]);
-console.log(friends.length);
-console.log(friends.length - 1);
+// console.log(friends[0]);
+// console.log(friends.length);
+// console.log(friends.length - 1);
 
 // OPDRACHT
+
+const populations = [1441, 17, 83, 10] // China, Nederland, Duitsland, Portugal
+console.log(populations.length === 4);
