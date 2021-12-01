@@ -68,7 +68,6 @@ console.log(china3, netherlands3, germany3);
 // console.log(friends.length - 1);
 
 // OPDRACHT
-
 function percentageOfWorld1(populations) {
     return (populations/7900)*100;
 }
@@ -81,3 +80,5 @@ const percentages = [
     percentageOfWorld1(populations[3])
 ];
 console.log(percentages);
+
+// BASIC ARRAY OPERATIONS
