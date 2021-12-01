@@ -97,3 +97,5 @@ console.log(neighbours.indexOf('Belgium'));
 neighbours[1] = 'Belgie';
 console.log(neighbours);
 
+// INTRODUCTION TO OBJECTS
+
