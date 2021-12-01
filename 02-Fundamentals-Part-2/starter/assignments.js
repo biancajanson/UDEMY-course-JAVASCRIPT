@@ -19,9 +19,9 @@ console.log(ireland);
 // LECTURE: FUNCTION DECLARATIONS VS. EXPRESSIONS
 
 // DECLARATION
-function percentageOfWorld1(population) {
-    return (population/7900)*100;
-}
+// function percentageOfWorld1(population) {
+//     return (population/7900)*100;
+// }
 /*
 const china1 = percentageOfWorld1(1441);
 const netherlands1 = percentageOfWorld1(17);
@@ -69,5 +69,15 @@ console.log(china3, netherlands3, germany3);
 
 // OPDRACHT
 
+function percentageOfWorld1(populations) {
+    return (populations/7900)*100;
+}
 const populations = [1441, 17, 83, 10] // China, Nederland, Duitsland, Portugal
 console.log(populations.length === 4);
+const percentages = [
+    percentageOfWorld1(populations[0]), 
+    percentageOfWorld1(populations[1]), 
+    percentageOfWorld1(populations[2]), 
+    percentageOfWorld1(populations[3])
+];
+console.log(percentages);
