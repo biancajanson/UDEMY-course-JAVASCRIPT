@@ -98,4 +98,10 @@ neighbours[1] = 'Belgie';
 console.log(neighbours);
 
 // INTRODUCTION TO OBJECTS
-
+const myCountry = {
+    country: 'Netherlands',
+    capital: 'Amsterdam',
+    language: 'Dutch',
+    population: 17,
+    neighbours: ['Germany', 'Belgium']
+}
