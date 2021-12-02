@@ -81,27 +81,43 @@ console.log(china3, netherlands3, germany3);
 // ];
 // console.log(percentages);
 
-// BASIC ARRAY OPERATIONS
-const neighbours = ['Germany', 'Belgium'];
-console.log(neighbours);
-neighbours.push('Utopia');
-console.log(neighbours);
-neighbours.pop();
-console.log(neighbours);
+// // BASIC ARRAY OPERATIONS
+// const neighbours = ['Germany', 'Belgium'];
+// console.log(neighbours);
+// neighbours.push('Utopia');
+// console.log(neighbours);
+// neighbours.pop();
+// console.log(neighbours);
 
-if (neighbours.includes(!'Germany')) {
-    console.log('Probably not a central European country.');
+// if (neighbours.includes(!'Germany')) {
+//     console.log('Probably not a central European country.');
+// }
+
+// console.log(neighbours.indexOf('Belgium'));
+// neighbours[1] = 'Belgie';
+// console.log(neighbours);
+
+// // INTRODUCTION TO OBJECTS
+// const myCountry = {
+//     country: 'Netherlands',
+//     capital: 'Amsterdam',
+//     language: 'Dutch',
+//     population: 17,
+//     neighbours: ['Germany', 'Belgium']
+// }
+
+// DOT VS. BRACKET NOTATION
+
+// CHALLENGE IN VIDEO
+// "Jonas has 3 friends, and his best friend is called Michael."
+
+const jonas = {
+    firstName: 'Jonas',
+    lastName: 'Schmedtmann',
+    age: 2037 - 1991,
+    job: 'teacher',
+    friends: ['Michael', 'Peter', 'Steven']
 }
 
-console.log(neighbours.indexOf('Belgium'));
-neighbours[1] = 'Belgie';
-console.log(neighbours);
-
-// INTRODUCTION TO OBJECTS
-const myCountry = {
-    country: 'Netherlands',
-    capital: 'Amsterdam',
-    language: 'Dutch',
-    population: 17,
-    neighbours: ['Germany', 'Belgium']
-}
+console.log(jonas.firstName);
+console.log(jonas['firstName']+ ` has ` +(jonas.friends.length) + ` friends, and his best friend is called ` + jonas.friends[0])
