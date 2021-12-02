@@ -98,13 +98,13 @@ console.log(china3, netherlands3, germany3);
 // console.log(neighbours);
 
 // // INTRODUCTION TO OBJECTS
-// const myCountry = {
-//     country: 'Netherlands',
-//     capital: 'Amsterdam',
-//     language: 'Dutch',
-//     population: 17,
-//     neighbours: ['Germany', 'Belgium']
-// }
+const myCountry = {
+    country: 'The Netherlands',
+    capital: 'Amsterdam',
+    language: 'dutch',
+    population: 17,
+    neighbours: ['Germany', 'Belgium']
+}
 
 // DOT VS. BRACKET NOTATION
 
@@ -121,3 +121,10 @@ const jonas = {
 
 console.log(jonas.firstName);
 console.log(`${jonas['firstName']} has ${jonas.friends.length} friends, and his best friend is called ${jonas.friends[0]}`);
+
+// OPDRACHT
+console.log(`${myCountry.country} has ${myCountry.population} million ${myCountry.language}-speaking people, ${myCountry.neighbours.length} neighbouring countries and a capital called ${myCountry.capital}.`);
+myCountry.population = 19;
+console.log(myCountry.population);
+myCountry['population'] = 17;
+console.log(myCountry['population']);
