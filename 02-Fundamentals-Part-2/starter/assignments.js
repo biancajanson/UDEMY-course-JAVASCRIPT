@@ -111,20 +111,43 @@ const myCountry = {
 // CHALLENGE IN VIDEO
 // "Jonas has 3 friends, and his best friend is called Michael."
 
+// const jonas = {
+//     firstName: 'Jonas',
+//     lastName: 'Schmedtmann',
+//     age: 2037 - 1991,
+//     job: 'teacher',
+//     friends: ['Michael', 'Peter', 'Steven']
+// }
+
+// console.log(jonas.firstName);
+// console.log(`${jonas['firstName']} has ${jonas.friends.length} friends, and his best friend is called ${jonas.friends[0]}`);
+
+// // OPDRACHT
+// console.log(`${myCountry.country} has ${myCountry.population} million ${myCountry.language}-speaking people, ${myCountry.neighbours.length} neighbouring countries and a capital called ${myCountry.capital}.`);
+// myCountry.population = 19;
+// console.log(myCountry.population);
+// myCountry['population'] = 17;
+// console.log(myCountry['population']);
+
+// // OBJECT METHODS
+
+// CHALLENGE IN VIDEO
+// "Jonas is a 46-year old teacher, and he has a(/no) drivers license."
+
 const jonas = {
     firstName: 'Jonas',
     lastName: 'Schmedtmann',
-    age: 2037 - 1991,
+    birthYear: 1991,
     job: 'teacher',
-    friends: ['Michael', 'Peter', 'Steven']
+    friends: ['Michael', 'Peter', 'Steven'],
+    hasDriversLicense: true,
+    calcAge: function() {
+        this.age = 2037 - this.birthYear;
+        return this.age;
+    },
+    getSummary: function () {
+        return `${this.firstName} is a ${this.calcAge()}-year old ${this.job}, and he has ${this.hasDriversLicense ? 'a' : 'no'} drivers license.`
+    }
 }
 
-console.log(jonas.firstName);
-console.log(`${jonas['firstName']} has ${jonas.friends.length} friends, and his best friend is called ${jonas.friends[0]}`);
-
-// OPDRACHT
-console.log(`${myCountry.country} has ${myCountry.population} million ${myCountry.language}-speaking people, ${myCountry.neighbours.length} neighbouring countries and a capital called ${myCountry.capital}.`);
-myCountry.population = 19;
-console.log(myCountry.population);
-myCountry['population'] = 17;
-console.log(myCountry['population']);
+console.log(jonas.getSummary());
