@@ -98,13 +98,13 @@ console.log(china3, netherlands3, germany3);
 // console.log(neighbours);
 
 // // INTRODUCTION TO OBJECTS
-const myCountry = {
-    country: 'The Netherlands',
-    capital: 'Amsterdam',
-    language: 'dutch',
-    population: 17,
-    neighbours: ['Germany', 'Belgium']
-}
+// const myCountry = {
+//     country: 'The Netherlands',
+//     capital: 'Amsterdam',
+//     language: 'dutch',
+//     population: 17,
+//     neighbours: ['Germany', 'Belgium']
+// }
 
 // DOT VS. BRACKET NOTATION
 
@@ -151,3 +151,21 @@ const jonas = {
 }
 
 console.log(jonas.getSummary());
+
+// OPDRACHT
+const myCountry = {
+    country: 'The Netherlands',
+    capital: 'Amsterdam',
+    language: 'dutch',
+    population: 17,
+    neighbours: ['Germany', 'Belgium'],
+    describe: function () {
+        console.log(`${this.country} has ${this.population} million ${this.language}-speaking people, ${this.neighbours.length} neighbouring countries and a capital called ${this.capital}.`);
+    },
+    checkIsland: function () {
+        this.isIsland = this.neighbours.length === 0 ? true : false;
+    }
+};
+myCountry.describe();
+myCountry.checkIsland();
+console.log(myCountry);
