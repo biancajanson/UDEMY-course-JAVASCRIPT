@@ -267,10 +267,24 @@ console.log(china3, netherlands3, germany3);
 // }
 
 // THE WHILE LOOP
-let dice = Math.trunc(Math.random()*6)+1;
+// let dice = Math.trunc(Math.random()*6)+1;
 
-while (dice !== 6) {
-    console.log(`You rolled a ${dice}`);
-    dice = Math.trunc(Math.random()*6)+1;
-    if (dice === 6) console.log(`Loop is about to end...`);
+// while (dice !== 6) {
+//     console.log(`You rolled a ${dice}`);
+//     dice = Math.trunc(Math.random()*6)+1;
+//     if (dice === 6) console.log(`Loop is about to end...`);
+// }
+
+// OPDRACHT
+function percentageOfWorld1(populations) {
+        return (populations/7900)*100;
+    }
+const populations = [1441, 17, 83, 10] // China, Nederland, Duitsland, Portugal
+const percentages3 = [];
+
+let i = 0;
+while (i <populations.length) {
+    percentages3.push(populations[i]/7900*100);
+    i++;
 }
+console.log(percentages3)    
