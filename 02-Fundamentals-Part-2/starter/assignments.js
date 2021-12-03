@@ -221,10 +221,47 @@ console.log(china3, netherlands3, germany3);
 // }
 
 // OPDRACHT
+// function percentageOfWorld1(populations) {
+//         return (populations/7900)*100;
+//     }
+// const populations = [1441, 17, 83, 10] // China, Nederland, Duitsland, Portugal
+// const percentages2 = [];
+// for (let i = 0; i <populations.length; i++) {
+//     percentages2.push(populations[i]/7900*100)
+// }
+// console.log(percentages2)    
 
-const populations = [1441, 17, 83, 10] // China, Nederland, Duitsland, Portugal
-const percentages2 = [];
-for (let i = 0; i <populations.length; i++) {
-    percentages2.push(populations[i]/7900*100)
+// LOOPING BACKWARDS AND LOOPS IN LOOPS
+// looping backwards
+// const jonas = [
+//     'Jonas',
+//     'Schmedtmann',
+//     2037 - 1991,
+//     'teacher',
+//     ['Michael', 'Peter', 'Steven']
+// ];
+    
+// for (let i = jonas.length - 1; i >= 0; i--) {
+//     console.log(jonas[i]);
+// }
+// // loops in loops
+// for (let exercise = 1; exercise < 4; exercise++) {
+//     console.log(`----- Starting exercise ${exercise}`);
+
+//     for (let rep = 1; rep < 6; rep++) {
+//         console.log(`Exercise ${exercise}: Lifting weight repetition ${rep}`)
+//     }
+// }
+
+// OPDRACHT
+const listOfNeighbours = [
+    ['Canada', 'Mexico'], 
+    ['Spain'], 
+    ['Norway', 'Sweden', 'Russia']
+];
+
+for (let i = 0; i < listOfNeighbours.length; i++) {
+    for (let y = 0; y < listOfNeighbours[i].length; y++) {
+        console.log(`Neighbour: ${listOfNeighbours[i][y]}`)
+    }
 }
-console.log(percentages2)    
