@@ -171,6 +171,20 @@ console.log(china3, netherlands3, germany3);
 // console.log(myCountry);
 
 // THE FOR LOOP
-for (let voter=1; voter<=50; voter++) {
-    console.log(`Voter number ${voter} is currently voting.`)
+// for (let voter=1; voter<=50; voter++) {
+//     console.log(`Voter number ${voter} is currently voting.`)
+// }
+
+// LOOPING ARRAYS, BREAKING AND CONTINUING
+const jonas = [
+    'Jonas',
+    'Schmedtmann',
+    2037 - 1991,
+    'teacher',
+    ['Michael', 'Peter', 'Steven'],
+    true,
+];
+
+for(let i = 0; i < jonas.length; i++) {
+    console.log(jonas[i], typeof jonas[i]);
 }
