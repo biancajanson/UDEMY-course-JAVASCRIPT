@@ -134,38 +134,43 @@ console.log(china3, netherlands3, germany3);
 // CHALLENGE IN VIDEO
 // "Jonas is a 46-year old teacher, and he has a(/no) drivers license."
 
-const jonas = {
-    firstName: 'Jonas',
-    lastName: 'Schmedtmann',
-    birthYear: 1991,
-    job: 'teacher',
-    friends: ['Michael', 'Peter', 'Steven'],
-    hasDriversLicense: true,
-    calcAge: function() {
-        this.age = 2037 - this.birthYear;
-        return this.age;
-    },
-    getSummary: function () {
-        return `${this.firstName} is a ${this.calcAge()}-year old ${this.job}, and he has ${this.hasDriversLicense ? 'a' : 'no'} drivers license.`
-    }
+// const jonas = {
+//     firstName: 'Jonas',
+//     lastName: 'Schmedtmann',
+//     birthYear: 1991,
+//     job: 'teacher',
+//     friends: ['Michael', 'Peter', 'Steven'],
+//     hasDriversLicense: true,
+//     calcAge: function() {
+//         this.age = 2037 - this.birthYear;
+//         return this.age;
+//     },
+//     getSummary: function () {
+//         return `${this.firstName} is a ${this.calcAge()}-year old ${this.job}, and he has ${this.hasDriversLicense ? 'a' : 'no'} drivers license.`
+//     }
+// }
+
+// console.log(jonas.getSummary());
+
+// // OPDRACHT
+// const myCountry = {
+//     country: 'The Netherlands',
+//     capital: 'Amsterdam',
+//     language: 'dutch',
+//     population: 17,
+//     neighbours: ['Germany', 'Belgium'],
+//     describe: function () {
+//         console.log(`${this.country} has ${this.population} million ${this.language}-speaking people, ${this.neighbours.length} neighbouring countries and a capital called ${this.capital}.`);
+//     },
+//     checkIsland: function () {
+//         this.isIsland = this.neighbours.length === 0 ? true : false;
+//     }
+// };
+// myCountry.describe();
+// myCountry.checkIsland();
+// console.log(myCountry);
+
+// THE FOR LOOP
+for (let voter=1; voter<=50; voter++) {
+    console.log(`Voter number ${voter} is currently voting.`)
 }
-
-console.log(jonas.getSummary());
-
-// OPDRACHT
-const myCountry = {
-    country: 'The Netherlands',
-    capital: 'Amsterdam',
-    language: 'dutch',
-    population: 17,
-    neighbours: ['Germany', 'Belgium'],
-    describe: function () {
-        console.log(`${this.country} has ${this.population} million ${this.language}-speaking people, ${this.neighbours.length} neighbouring countries and a capital called ${this.capital}.`);
-    },
-    checkIsland: function () {
-        this.isIsland = this.neighbours.length === 0 ? true : false;
-    }
-};
-myCountry.describe();
-myCountry.checkIsland();
-console.log(myCountry);
