@@ -254,14 +254,23 @@ console.log(china3, netherlands3, germany3);
 // }
 
 // OPDRACHT
-const listOfNeighbours = [
-    ['Canada', 'Mexico'], 
-    ['Spain'], 
-    ['Norway', 'Sweden', 'Russia']
-];
+// const listOfNeighbours = [
+//     ['Canada', 'Mexico'], 
+//     ['Spain'], 
+//     ['Norway', 'Sweden', 'Russia']
+// ];
 
-for (let i = 0; i < listOfNeighbours.length; i++) {
-    for (let y = 0; y < listOfNeighbours[i].length; y++) {
-        console.log(`Neighbour: ${listOfNeighbours[i][y]}`)
-    }
+// for (let i = 0; i < listOfNeighbours.length; i++) {
+//     for (let y = 0; y < listOfNeighbours[i].length; y++) {
+//         console.log(`Neighbour: ${listOfNeighbours[i][y]}`)
+//     }
+// }
+
+// THE WHILE LOOP
+let dice = Math.trunc(Math.random()*6)+1;
+
+while (dice !== 6) {
+    console.log(`You rolled a ${dice}`);
+    dice = Math.trunc(Math.random()*6)+1;
+    if (dice === 6) console.log(`Loop is about to end...`);
 }
